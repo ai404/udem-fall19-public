@@ -130,7 +130,11 @@ class LineDetectorNode(object):
             return
         
         try:
+            c = time.time()
             self.processImage_(image_msg)
+            self.loginfo("-"*20)
+            self.loginfo("it took %f seconds"%(time.time() - c))
+            self.loginfo("-"*20)
         finally:
             return
 
