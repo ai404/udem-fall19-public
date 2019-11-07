@@ -1,5 +1,5 @@
 # parameters
-ARG REPO_NAME="udem-fall19-public"
+ARG REPO_NAME="<REPO_NAME_HERE>"
 
 # ==================================================>
 # ==> Do not change this code
